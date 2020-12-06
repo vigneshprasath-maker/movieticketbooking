@@ -76,8 +76,8 @@ if (mysqli_num_rows($result) > 0) {
       <ul class="nav navbar-nav">
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#" class="a-back">Welcome <?php echo $c?></a></a></li>
-        <li><a href="#">Wallet :<?php echo $row["wallet"];?></a></li>
+        <li class="a-back" style="padding: 15px 15px;">Welcome <?php echo $c?></li>
+        <li style="padding: 15px 0px;">Wallet :<?php echo $row["wallet"];?></li>
 
 
       <li><a href="./login.php">Sign out</a></li>
@@ -115,6 +115,49 @@ if (mysqli_num_rows($result) > 0) {
     </a>
   </div>
 </div>
+
+
+
+
+
+
+<div style="" class="movieslistentry">
+Trailers:
+</div>
+<div style="" class="movieslisthorizontal">
+
+
+  <div class="thumb-img">
+   <a href="https://youtu.be/ujjoTwPD7UU"><img src="https://in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/kavalthurai-ungal-nanban-et00112826-23-11-2020-12-13-40.jpg" data-toggle="modal" data-target="#kun"  class="innerimg"></a> 
+  </div>
+  <div class="thumb-img">
+    <a href="https://youtu.be/7LktgvVS1ss"><img src="https://in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/thatrom-thookrom-et00300778-12-11-2020-05-56-34.jpg" data-toggle="modal" data-target="#kun"  class="innerimg"></a> 
+  </div>
+  <div class="thumb-img">
+    <a href="https://youtu.be/EkWJEBxzYb0"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2AHEOBDcZaW0b88jLCPG7iBXCg8jXRr2N6jnEblNSrM8TKEH_" data-toggle="modal" data-target="#kun"  class="innerimg"></a> 
+  </div>
+  <div class="thumb-img">
+    <a href="https://youtu.be/5AzCHtbmW-U"><img src="https://m.media-amazon.com/images/M/MV5BMjIxMmMxNGMtN2FkNS00NGU3LTgwNDctZTY3OGVkNzNmOTViXkEyXkFqcGdeQXVyOTk3NTc2MzE@._V1_.jpg" data-toggle="modal" data-target="#kun"  class="innerimg"></a> 
+  </div>
+  <div class="thumb-img">
+    <a href="https://www.youtube.com/watch?v=fa_DIwRsa9o"><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT548VxmAy8QLFh56tfBTUqGg0qqU75AxX-dQ0dCP0W-fmdoDuk" data-toggle="modal" data-target="#kun"  class="innerimg"></a> 
+  </div>
+  <div class="thumb-img">
+    <a href="https://youtu.be/7cx-KSsYcjg"><img src="https://i.pinimg.com/564x/23/f7/9f/23f79f7fd79e19fd55537e2981e7d477.jpg" data-toggle="modal" data-target="#kun"  class="innerimg"></a> 
+  </div>
+
+  
+
+</div>
+</div>
+
+
+
+
+
+
+
+
 <div style="" class="movieslistentry">
 Movies:
 </div>
@@ -151,11 +194,15 @@ else{
 ?>
 
 </div>
-
-<div>
-
-	
 </div>
+
+
+
+
+
+
+
+
 
 
 <div style="" class="copyrighttag"><p style="" class="copyrightptag">@copyright from Bookmyshow</p></div>
